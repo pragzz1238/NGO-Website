@@ -1,0 +1,102 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap");
+:root{
+    --themeRed: #e43a47;                          /* Creating CSS3 variable*/
+    --gray: #efefef;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+button, 
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.fullContainer {
+    width: 100%;
+}
+.container{
+    width: 1140px;
+    margin: auto;
+}
+
+/* Home style starts */
+
+header {
+    width:  100%;
+    background-color: rgba(0, 0, 0, 0.6);
+    position: fixed;
+    z-index: 2; /* The z-index property specifies the stack order of an element*/
+}
+header .container{
+    display: flex;
+    justify-content: space-between;
+}
+header .container .logo{
+    padding:  15px 0;
+    height: 75px;
+}
+header .container .logo img{
+    height:  100%;
+}
+header nav ul{
+    list-style-type: none;
+}
+header nav ul li{
+    display: inline-block;
+}
+header nav ul li a{
+    display: inline-block;
+    height:  75px;
+    line-height: 75px;
+    padding: 0 15px;
+    text-decoration: none;
+    text-transform: capitalize;
+    font-size: 16px;
+    color: #fff;
+    transition: 0.3s;
+}
+
+header nav ul li a:hover{
+    background-color: var(--themeRed);
+}
+.banner{
+    min-height: 100vh;
+    width: 100%;
+    background-image: url("../images/programs/header-bg.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+}
+.banner h1{
+    margin-top: 230px;
+    display: inline-block;
+    font-size: 3.5rem;
+    color: #fff;
+    text-shadow: 0 0 2px #000;
+    width: 50%;
+    line-height: 4.2rem;
+    font-weight: 100%;
+}
+
+.banner button{
+    background-color: var(--gray);
+    border: 0;
+    outline-style: ;
+    color:  #000;
+    padding:  12px 28px;
+    margin-top: 20px;
+    font-size: 13px;
+    border-radius: 20px;
+    font-weight: 600; 
+}
+
+.banner button:hover{
+    background-color: var(--themeRed);
+}
+/* Home style ends */
