@@ -12,7 +12,7 @@ This is a responsive NGO website created during my first year of development usi
 
 ## Demo
 
-You can watch the demo video of the NGO website I have included in my repository as "ngo website.mp4".
+You can watch the demo video of the NGO website I have included in my repository as `ngo website.mp4`
 
 ## Screenshot
 
